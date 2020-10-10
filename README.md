@@ -1,4 +1,4 @@
-# Converting a Godaddy Security Certificate to PFX form IIS Download
+# Converting a Godaddy Security Certificate to PFX from IIS Download
 Converting a GoDaddy Security certificate to a PFX for a Windows Machine using openssl
 
 <ol>
