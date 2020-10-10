@@ -8,7 +8,7 @@ Converting a GoDaddy Security certificate to a PFX for a Windows Machine using o
   <li>Add the key files into the same folder just for easier processing</li>
 <li>Run in Command:<br>
   <b>iconv -c -f UTF8 -t ASCII generated-private.txt > key.pk8</b><br>
-  <i>This will convert the key into a format will allow OpenSSL to read the key file.<li></li>
+  <i>This will convert the key into a format will allow OpenSSL to read the key file.</i></li>
 <li>Convert the pk8 into a PEM file<br>
   <b>openssl rsa -in key.pk8 -out key.pem</b></li>
 <li>Then run the openssl conversion commands:<br>
